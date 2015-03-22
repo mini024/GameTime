@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		227D40131ABE546C00353D70 /* open.001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D40121ABE546C00353D70 /* open.001.jpg */; };
+		227D40291ABE800500353D70 /* intro_slashy-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D40281ABE800500353D70 /* intro_slashy-1.jpg */; };
+		227D402B1ABE802400353D70 /* intro_timmy-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D402A1ABE802400353D70 /* intro_timmy-1.jpg */; };
+		227D402D1ABE802D00353D70 /* intro_kody-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D402C1ABE802D00353D70 /* intro_kody-1.jpg */; };
+		227D402F1ABE803200353D70 /* intro_jumper-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D402E1ABE803200353D70 /* intro_jumper-1.jpg */; };
+		227D40311ABE803600353D70 /* intro_diggy-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D40301ABE803600353D70 /* intro_diggy-1.jpg */; };
 		22810A531ABE1125008D9D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22810A521ABE1125008D9D07 /* AppDelegate.swift */; };
 		22810A551ABE1125008D9D07 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22810A541ABE1125008D9D07 /* GameScene.sks */; };
 		22810A571ABE1125008D9D07 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22810A561ABE1125008D9D07 /* GameScene.swift */; };
@@ -15,6 +21,11 @@
 		22810A5E1ABE1125008D9D07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22810A5D1ABE1125008D9D07 /* Images.xcassets */; };
 		22810A611ABE1125008D9D07 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22810A5F1ABE1125008D9D07 /* LaunchScreen.xib */; };
 		22810A6D1ABE1125008D9D07 /* Game_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22810A6C1ABE1125008D9D07 /* Game_TimeTests.swift */; };
+		22810A781ABE113B008D9D07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22810A761ABE113B008D9D07 /* ViewController.swift */; };
+		22810A791ABE113B008D9D07 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22810A771ABE113B008D9D07 /* InfoViewController.swift */; };
+		22810A911ABE4842008D9D07 /* back_timmy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22810A8E1ABE4842008D9D07 /* back_timmy.jpg */; };
+		22810A921ABE4842008D9D07 /* info_bt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22810A8F1ABE4842008D9D07 /* info_bt.jpg */; };
+		22810A931ABE4842008D9D07 /* logo_bt.png in Resources */ = {isa = PBXBuildFile; fileRef = 22810A901ABE4842008D9D07 /* logo_bt.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		227D40121ABE546C00353D70 /* open.001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = open.001.jpg; sourceTree = "<group>"; };
+		227D40281ABE800500353D70 /* intro_slashy-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "intro_slashy-1.jpg"; path = "/var/folders/rq/zlg77vd91zd7886d54dp_15w0000gn/T/com.apple.iChat/Messages/Transfers/intro_slashy-1.jpg"; sourceTree = "<absolute>"; };
+		227D402A1ABE802400353D70 /* intro_timmy-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "intro_timmy-1.jpg"; path = "/var/folders/rq/zlg77vd91zd7886d54dp_15w0000gn/T/com.apple.iChat/Messages/Transfers/intro_timmy-1.jpg"; sourceTree = "<absolute>"; };
+		227D402C1ABE802D00353D70 /* intro_kody-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_kody-1.jpg"; sourceTree = "<group>"; };
+		227D402E1ABE803200353D70 /* intro_jumper-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_jumper-1.jpg"; sourceTree = "<group>"; };
+		227D40301ABE803600353D70 /* intro_diggy-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_diggy-1.jpg"; sourceTree = "<group>"; };
 		22810A4D1ABE1125008D9D07 /* Game-Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game-Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22810A511ABE1125008D9D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22810A521ABE1125008D9D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +57,11 @@
 		22810A661ABE1125008D9D07 /* Game-TimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game-TimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22810A6B1ABE1125008D9D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22810A6C1ABE1125008D9D07 /* Game_TimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_TimeTests.swift; sourceTree = "<group>"; };
+		22810A761ABE113B008D9D07 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22810A771ABE113B008D9D07 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		22810A8E1ABE4842008D9D07 /* back_timmy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back_timmy.jpg; sourceTree = "<group>"; };
+		22810A8F1ABE4842008D9D07 /* info_bt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = info_bt.jpg; sourceTree = "<group>"; };
+		22810A901ABE4842008D9D07 /* logo_bt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_bt.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +88,7 @@
 				22810A4F1ABE1125008D9D07 /* Game-Time */,
 				22810A691ABE1125008D9D07 /* Game-TimeTests */,
 				22810A4E1ABE1125008D9D07 /* Products */,
+				22810A7E1ABE11A4008D9D07 /* Changuito */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +108,8 @@
 				22810A541ABE1125008D9D07 /* GameScene.sks */,
 				22810A561ABE1125008D9D07 /* GameScene.swift */,
 				22810A581ABE1125008D9D07 /* GameViewController.swift */,
+				22810A761ABE113B008D9D07 /* ViewController.swift */,
+				22810A771ABE113B008D9D07 /* InfoViewController.swift */,
 				22810A5A1ABE1125008D9D07 /* Main.storyboard */,
 				22810A5D1ABE1125008D9D07 /* Images.xcassets */,
 				22810A5F1ABE1125008D9D07 /* LaunchScreen.xib */,
@@ -116,6 +141,30 @@
 				22810A6B1ABE1125008D9D07 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22810A7E1ABE11A4008D9D07 /* Changuito */ = {
+			isa = PBXGroup;
+			children = (
+				227D40121ABE546C00353D70 /* open.001.jpg */,
+				22810A8E1ABE4842008D9D07 /* back_timmy.jpg */,
+				22810A8F1ABE4842008D9D07 /* info_bt.jpg */,
+				22810A901ABE4842008D9D07 /* logo_bt.png */,
+				227D40281ABE800500353D70 /* intro_slashy-1.jpg */,
+				227D402A1ABE802400353D70 /* intro_timmy-1.jpg */,
+				227D402C1ABE802D00353D70 /* intro_kody-1.jpg */,
+				227D402E1ABE803200353D70 /* intro_jumper-1.jpg */,
+				227D40301ABE803600353D70 /* intro_diggy-1.jpg */,
+				22810A801ABE11A4008D9D07 /* Mono */,
+			);
+			path = Changuito;
+			sourceTree = "<group>";
+		};
+		22810A801ABE11A4008D9D07 /* Mono */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mono;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,10 +247,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227D40311ABE803600353D70 /* intro_diggy-1.jpg in Resources */,
+				227D402D1ABE802D00353D70 /* intro_kody-1.jpg in Resources */,
 				22810A611ABE1125008D9D07 /* LaunchScreen.xib in Resources */,
+				22810A911ABE4842008D9D07 /* back_timmy.jpg in Resources */,
+				227D40291ABE800500353D70 /* intro_slashy-1.jpg in Resources */,
 				22810A5E1ABE1125008D9D07 /* Images.xcassets in Resources */,
 				22810A551ABE1125008D9D07 /* GameScene.sks in Resources */,
+				227D40131ABE546C00353D70 /* open.001.jpg in Resources */,
+				22810A931ABE4842008D9D07 /* logo_bt.png in Resources */,
+				227D402B1ABE802400353D70 /* intro_timmy-1.jpg in Resources */,
+				227D402F1ABE803200353D70 /* intro_jumper-1.jpg in Resources */,
 				22810A5C1ABE1125008D9D07 /* Main.storyboard in Resources */,
+				22810A921ABE4842008D9D07 /* info_bt.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +279,9 @@
 			files = (
 				22810A571ABE1125008D9D07 /* GameScene.swift in Sources */,
 				22810A591ABE1125008D9D07 /* GameViewController.swift in Sources */,
+				22810A781ABE113B008D9D07 /* ViewController.swift in Sources */,
 				22810A531ABE1125008D9D07 /* AppDelegate.swift in Sources */,
+				22810A791ABE113B008D9D07 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +473,7 @@
 				22810A721ABE1125008D9D07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22810A731ABE1125008D9D07 /* Build configuration list for PBXNativeTarget "Game-TimeTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +482,7 @@
 				22810A751ABE1125008D9D07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

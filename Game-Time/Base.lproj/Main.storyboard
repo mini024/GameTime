@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LVB-YS-i5n">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tyH-dg-zM4">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Game View Controller-->
         <scene sceneID="CtS-rA-C9T">
             <objects>
-                <viewController id="LVB-YS-i5n" customClass="GameViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LVB-YS-i5n" customClass="GameViewController" customModule="Game_Time" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PCf-gQ-wO7"/>
                         <viewControllerLayoutGuide type="bottom" id="b3d-qh-BLL"/>
@@ -17,9 +18,190 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <segue destination="tyH-dg-zM4" kind="show" identifier="Menu" id="nGj-ce-vJk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="btX-cZ-eVz" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1412" y="-197"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fPu-V0-G2L">
+            <objects>
+                <viewController id="tyH-dg-zM4" customClass="ViewController" customModule="Game_Time" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XOL-00-FYl"/>
+                        <viewControllerLayoutGuide type="bottom" id="Txl-nH-6Rd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ave-kS-tbJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_timmy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ICT-Sj-7BP">
+                                <rect key="frame" x="93" y="-4" width="414" height="608"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="CO4-ya-IIQ"/>
+                                    <constraint firstAttribute="height" constant="608" id="cel-Xo-hwR"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_bt.png" translatesAutoresizingMaskIntoConstraints="NO" id="AiW-xl-NuE">
+                                <rect key="frame" x="172" y="15" width="256" height="147"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="147" id="Nqe-WS-rOD"/>
+                                    <constraint firstAttribute="width" constant="256" id="QVB-oC-Dpo"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MeH-bn-4EI">
+                                <rect key="frame" x="172" y="192" width="256" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="QRJ-yJ-ZgQ"/>
+                                    <constraint firstAttribute="width" constant="256" id="rDG-Lq-RpN"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="intro_timmy-1.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="LVB-YS-i5n" kind="show" id="iIf-Dt-Z0m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dwK-6M-D3D">
+                                <rect key="frame" x="172" y="334" width="256" height="55"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="256" id="jKi-qk-zOX"/>
+                                    <constraint firstAttribute="height" constant="55" id="uVg-Xy-YEn"/>
+                                </constraints>
+                                <color key="tintColor" red="0.99679432739999996" green="0.99679432739999996" blue="0.99679432739999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="intro_jumper-1.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgK-Gw-e14">
+                                <rect key="frame" x="172" y="264" width="256" height="55"/>
+                                <color key="backgroundColor" red="0.023529414089999999" green="0.77254909279999995" blue="0.87409959479999999" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="Wlg-nJ-NZ0"/>
+                                    <constraint firstAttribute="width" constant="256" id="hdw-KM-jLi"/>
+                                </constraints>
+                                <color key="tintColor" red="0.99679432739999996" green="0.99679432739999996" blue="0.99679432739999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="intro_kody-1.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QpX-4Q-uHT">
+                                <rect key="frame" x="172" y="482" width="256" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="gR1-Vd-vsG"/>
+                                    <constraint firstAttribute="width" constant="256" id="zLh-i1-ZYb"/>
+                                </constraints>
+                                <state key="normal" image="intro_slashy-1.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlo-6R-k0P">
+                                <rect key="frame" x="172" y="410" width="256" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="dO3-RO-9S8"/>
+                                    <constraint firstAttribute="width" constant="256" id="r2Y-sf-45o"/>
+                                </constraints>
+                                <state key="normal" image="intro_diggy-1.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FWN-Ba-uBQ">
+                                <rect key="frame" x="289" y="545" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="hq2-dz-yaA"/>
+                                    <constraint firstAttribute="height" constant="22" id="kEb-Vz-G1v"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YjP-lc-b6i" kind="show" id="WYc-wk-fqX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="qlo-6R-k0P" secondAttribute="centerX" id="0gj-5g-pte"/>
+                            <constraint firstItem="MeH-bn-4EI" firstAttribute="top" secondItem="AiW-xl-NuE" secondAttribute="bottom" constant="30" id="41g-2I-X3p"/>
+                            <constraint firstItem="qlo-6R-k0P" firstAttribute="top" secondItem="dwK-6M-D3D" secondAttribute="bottom" constant="21" id="5NO-AN-5x2"/>
+                            <constraint firstAttribute="centerX" secondItem="FWN-Ba-uBQ" secondAttribute="centerX" id="8Wd-7q-mKn"/>
+                            <constraint firstItem="tgK-Gw-e14" firstAttribute="top" secondItem="MeH-bn-4EI" secondAttribute="bottom" constant="17" id="BMB-3d-h7m"/>
+                            <constraint firstItem="AiW-xl-NuE" firstAttribute="top" secondItem="ave-kS-tbJ" secondAttribute="topMargin" constant="15" id="D1S-jO-dJA"/>
+                            <constraint firstItem="FWN-Ba-uBQ" firstAttribute="top" secondItem="QpX-4Q-uHT" secondAttribute="bottom" constant="8" id="MvQ-sm-VKV"/>
+                            <constraint firstAttribute="centerX" secondItem="ICT-Sj-7BP" secondAttribute="centerX" id="OiP-lV-XQq"/>
+                            <constraint firstAttribute="centerX" secondItem="QpX-4Q-uHT" secondAttribute="centerX" id="UNN-gK-XV7"/>
+                            <constraint firstItem="dwK-6M-D3D" firstAttribute="top" secondItem="tgK-Gw-e14" secondAttribute="bottom" constant="15" id="VGp-1M-Dse"/>
+                            <constraint firstAttribute="centerX" secondItem="tgK-Gw-e14" secondAttribute="centerX" id="cXV-dj-2RX"/>
+                            <constraint firstItem="ICT-Sj-7BP" firstAttribute="top" secondItem="ave-kS-tbJ" secondAttribute="topMargin" constant="-4" id="hYU-6A-GvI"/>
+                            <constraint firstAttribute="centerX" secondItem="AiW-xl-NuE" secondAttribute="centerX" id="jXc-Cb-41i"/>
+                            <constraint firstItem="QpX-4Q-uHT" firstAttribute="top" secondItem="qlo-6R-k0P" secondAttribute="bottom" constant="17" id="kvj-wb-Ngt"/>
+                            <constraint firstAttribute="centerX" secondItem="MeH-bn-4EI" secondAttribute="centerX" id="rVX-jq-fFE"/>
+                            <constraint firstAttribute="centerX" secondItem="dwK-6M-D3D" secondAttribute="centerX" id="sk6-mm-vTL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EFB-4M-kuQ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="663" y="215"/>
+        </scene>
+        <!--Info View Controller-->
+        <scene sceneID="Y4N-d7-0Vf">
+            <objects>
+                <viewController id="YjP-lc-b6i" customClass="InfoViewController" customModule="Game_Time" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rcn-7w-Udf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Evu-cv-4d6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qJG-3N-QQK" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_bt.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QSd-nr-gYP">
+                                <rect key="frame" x="103" y="-4" width="394" height="608"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="394" id="ggm-SS-Bsm"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6xY-tS-Guq">
+                                <rect key="frame" x="283" y="562" width="35" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tyH-dg-zM4" kind="show" id="22R-Dy-lvf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Evu-cv-4d6" firstAttribute="top" secondItem="6xY-tS-Guq" secondAttribute="bottom" constant="8" symbolic="YES" id="ReG-or-b6Z"/>
+                            <constraint firstItem="QSd-nr-gYP" firstAttribute="top" secondItem="qJG-3N-QQK" secondAttribute="topMargin" constant="-4" id="X6P-ou-mUr"/>
+                            <constraint firstItem="6xY-tS-Guq" firstAttribute="centerX" secondItem="QSd-nr-gYP" secondAttribute="centerX" id="fsI-Te-FhP"/>
+                            <constraint firstItem="QSd-nr-gYP" firstAttribute="centerX" secondItem="qJG-3N-QQK" secondAttribute="centerX" id="jGV-Nw-DTl"/>
+                            <constraint firstItem="QSd-nr-gYP" firstAttribute="centerY" secondItem="qJG-3N-QQK" secondAttribute="centerY" id="von-ad-fuB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pKa-ri-Gin" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="656" y="871"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="back_timmy.jpg" width="1080" height="1920"/>
+        <image name="info_bt.jpg" width="1080" height="1920"/>
+        <image name="intro_diggy-1.jpg" width="1280" height="275"/>
+        <image name="intro_jumper-1.jpg" width="1280" height="275"/>
+        <image name="intro_kody-1.jpg" width="1280" height="275"/>
+        <image name="intro_slashy-1.jpg" width="1280" height="275"/>
+        <image name="intro_timmy-1.jpg" width="1280" height="275"/>
+        <image name="logo_bt.png" width="592" height="502"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="nGj-ce-vJk"/>
+    </inferredMetricsTieBreakers>
 </document>
