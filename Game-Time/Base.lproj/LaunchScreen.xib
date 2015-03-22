@@ -17,20 +17,24 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="open.001.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Nfb-nc-1ee">
-                    <rect key="frame" x="78" y="0.0" width="325" height="480"/>
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="325" id="OTI-7I-c99"/>
+                        <constraint firstAttribute="width" constant="480" id="OTI-7I-c99"/>
                     </constraints>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstAttribute="trailing" secondItem="Nfb-nc-1ee" secondAttribute="trailing" id="K8w-75-dfW"/>
                 <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
                 <constraint firstItem="Nfb-nc-1ee" firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="NwK-Ay-kbN"/>
+                <constraint firstAttribute="bottom" secondItem="Nfb-nc-1ee" secondAttribute="bottom" id="WT5-nK-w84"/>
                 <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
                 <constraint firstAttribute="bottom" secondItem="Nfb-nc-1ee" secondAttribute="bottom" id="ZpM-oc-Fgu"/>
                 <constraint firstItem="Nfb-nc-1ee" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cvx-0s-3Mj"/>
+                <constraint firstItem="Nfb-nc-1ee" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="i27-fE-e1f"/>
+                <constraint firstItem="Nfb-nc-1ee" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wzc-xQ-T30"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

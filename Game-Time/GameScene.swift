@@ -7,16 +7,26 @@
 //
 
 import SpriteKit
+import AVFoundation
 
 class GameScene: SKScene, SKPhysicsContactDelegate  {
     
     var viewController: UIViewController?
     var mono = SKSpriteNode()
     var canasta = SKSpriteNode()
-    var bananas = 1
+    var bananas = 0
     var banana = SKSpriteNode()
     var bananascachadas = 0
     var labelTime = SKLabelNode(fontNamed: "Helvetica")
+    let KeyName = "music2"
+    var bkSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Marvin's_Dance", ofType: "mp3")!)
+    var BkPlayer = AVAudioPlayer()
+    
+    func playMySound(){
+        BkPlayer = AVAudioPlayer(contentsOfURL: bkSound, error: nil)
+        BkPlayer.prepareToPlay()
+        BkPlayer.play()
+    }
     
 
     func bananacai(){
@@ -80,6 +90,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate  {
         self.mono.position = CGPointMake(self.frame.size.width/2 , 200)
         self.addChild(mono)
         
+        //PlayMusic
+        playMySound()
         
         //Agregar Objetos transparentes
         self.canasta.xScale = self.frame.size.width * 0.00018
@@ -91,16 +103,14 @@ class GameScene: SKScene, SKPhysicsContactDelegate  {
         
         //Collisions
         let bananaCategory: UInt32 = 0x1 << 0
-        let pisoCategory: UInt32 = 0x1 << 1
         let canastaCategory: UInt32 = 0x1 << 2
 
         physicsWorld.contactDelegate = self
         banana.physicsBody?.categoryBitMask = bananaCategory // 3
-        banana.physicsBody?.contactTestBitMask = pisoCategory // 4
         banana.physicsBody?.contactTestBitMask = bananaCategory // 4
         canasta.physicsBody?.categoryBitMask = canastaCategory
         canasta.physicsBody?.contactTestBitMask = bananaCategory
-        
+
         
         //Animacion
         var animationstart = SKAction.animateWithTextures([spritetexture, spritetexture2, spritetexture3, spritetexture4, spritetexture5], timePerFrame: 0.4)
@@ -117,6 +127,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate  {
     }
     
     func returnToMainMenu(){
+        BkPlayer.stop()
         var vc: UIViewController = UIViewController()
         self.viewController?.performSegueWithIdentifier("Menu", sender: vc)
     }
@@ -136,7 +147,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate  {
                 changelabel()
                 banana.removeFromParent()
             }
-        }
+    }
     
     func Regresarcanastaalcentro(){
 //        self.mono.runAction(SKAction.moveTo(CGPointMake(self.frame.size.width/2 ,self.frame.size.height/2 - 83), duration: 0.9))
@@ -211,26 +222,8 @@ override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         
     }
     if bananascachadas >= 10 {
-        var run = SKAction.runBlock {
-            var labelTime2 = SKLabelNode(fontNamed: "Helvetica")
-            labelTime2.text = "You Won";
-            labelTime2.fontSize = 50;
-            labelTime2.position = CGPointMake(self.frame.size.width/2, self.frame.size.height/2)
-            self.addChild(labelTime2)
-        }
-        var wait = SKAction.waitForDuration(1)
-        self.runAction(SKAction.sequence([wait, run]))
         returnToMainMenu()
-    } else if bananascachadas == bananas {
-        var run = SKAction.runBlock {
-            var labelTime2 = SKLabelNode(fontNamed: "Helvetica")
-            labelTime2.text = "You Won";
-            labelTime2.fontSize = 50;
-            labelTime2.position = CGPointMake(self.frame.size.width/2, self.frame.size.height/2)
-            self.addChild(labelTime2)
-        }
-        var wait = SKAction.waitForDuration(1)
-        self.runAction(SKAction.sequence([wait, run]))
+    } else if bananascachadas <= 10 && bananas >= 10 {
         returnToMainMenu()
     }
 }

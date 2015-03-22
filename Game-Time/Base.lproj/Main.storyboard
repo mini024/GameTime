@@ -5,6 +5,48 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="Kvs-bE-jHn">
+            <objects>
+                <viewController id="dy5-zd-lyV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GWy-Y5-Kpc"/>
+                        <viewControllerLayoutGuide type="bottom" id="sA0-Rg-rF9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rmL-79-rtI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instrucciones_timmy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QG0-js-z8A">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cn-Up-C3h">
+                                <rect key="frame" x="5" y="0.0" width="595" height="600"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="LVB-YS-i5n" kind="show" id="knj-pS-R2U"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0cn-Up-C3h" firstAttribute="bottom" secondItem="sA0-Rg-rF9" secondAttribute="top" id="3uF-e9-t4s"/>
+                            <constraint firstItem="0cn-Up-C3h" firstAttribute="top" secondItem="rmL-79-rtI" secondAttribute="top" id="8Mf-tN-NQV"/>
+                            <constraint firstItem="QG0-js-z8A" firstAttribute="bottom" secondItem="sA0-Rg-rF9" secondAttribute="top" id="BW1-za-aQJ"/>
+                            <constraint firstItem="QG0-js-z8A" firstAttribute="leading" secondItem="rmL-79-rtI" secondAttribute="leading" id="SGg-B9-s3h"/>
+                            <constraint firstAttribute="trailing" secondItem="QG0-js-z8A" secondAttribute="trailing" id="Smi-Q5-8dF"/>
+                            <constraint firstItem="QG0-js-z8A" firstAttribute="top" secondItem="0cn-Up-C3h" secondAttribute="top" id="Vwl-c9-RUi"/>
+                            <constraint firstItem="QG0-js-z8A" firstAttribute="trailing" secondItem="0cn-Up-C3h" secondAttribute="trailing" id="t6u-WT-szP"/>
+                            <constraint firstItem="0cn-Up-C3h" firstAttribute="leading" secondItem="rmL-79-rtI" secondAttribute="leadingMargin" constant="-11" id="zYO-PQ-oXl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P86-SK-3Ov" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1254" y="-174"/>
+        </scene>
         <!--Game View Controller-->
         <scene sceneID="CtS-rA-C9T">
             <objects>
@@ -24,7 +66,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="btX-cZ-eVz" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1412" y="-197"/>
+            <point key="canvasLocation" x="1928" y="-265"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fPu-V0-G2L">
@@ -39,10 +81,9 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_timmy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ICT-Sj-7BP">
-                                <rect key="frame" x="93" y="-4" width="414" height="608"/>
+                                <rect key="frame" x="93" y="0.0" width="414" height="600"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="414" id="CO4-ya-IIQ"/>
-                                    <constraint firstAttribute="height" constant="608" id="cel-Xo-hwR"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_bt.png" translatesAutoresizingMaskIntoConstraints="NO" id="AiW-xl-NuE">
@@ -62,7 +103,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="LVB-YS-i5n" kind="show" id="iIf-Dt-Z0m"/>
+                                    <segue destination="dy5-zd-lyV" kind="show" id="aLz-U7-c57"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dwK-6M-D3D">
@@ -76,6 +117,9 @@
                                 <state key="normal" image="intro_jumper-1.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="DXM-FT-OSZ" kind="show" id="Exs-p4-qGO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgK-Gw-e14">
                                 <rect key="frame" x="172" y="264" width="256" height="55"/>
@@ -133,10 +177,11 @@
                             <constraint firstItem="AiW-xl-NuE" firstAttribute="top" secondItem="ave-kS-tbJ" secondAttribute="topMargin" constant="15" id="D1S-jO-dJA"/>
                             <constraint firstItem="FWN-Ba-uBQ" firstAttribute="top" secondItem="QpX-4Q-uHT" secondAttribute="bottom" constant="8" id="MvQ-sm-VKV"/>
                             <constraint firstAttribute="centerX" secondItem="ICT-Sj-7BP" secondAttribute="centerX" id="OiP-lV-XQq"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="ICT-Sj-7BP" secondAttribute="bottom" id="Rre-FZ-DJR"/>
                             <constraint firstAttribute="centerX" secondItem="QpX-4Q-uHT" secondAttribute="centerX" id="UNN-gK-XV7"/>
                             <constraint firstItem="dwK-6M-D3D" firstAttribute="top" secondItem="tgK-Gw-e14" secondAttribute="bottom" constant="15" id="VGp-1M-Dse"/>
                             <constraint firstAttribute="centerX" secondItem="tgK-Gw-e14" secondAttribute="centerX" id="cXV-dj-2RX"/>
-                            <constraint firstItem="ICT-Sj-7BP" firstAttribute="top" secondItem="ave-kS-tbJ" secondAttribute="topMargin" constant="-4" id="hYU-6A-GvI"/>
+                            <constraint firstItem="ICT-Sj-7BP" firstAttribute="top" secondItem="ave-kS-tbJ" secondAttribute="topMargin" id="hYU-6A-GvI"/>
                             <constraint firstAttribute="centerX" secondItem="AiW-xl-NuE" secondAttribute="centerX" id="jXc-Cb-41i"/>
                             <constraint firstItem="QpX-4Q-uHT" firstAttribute="top" secondItem="qlo-6R-k0P" secondAttribute="bottom" constant="17" id="kvj-wb-Ngt"/>
                             <constraint firstAttribute="centerX" secondItem="MeH-bn-4EI" secondAttribute="centerX" id="rVX-jq-fFE"/>
@@ -146,7 +191,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EFB-4M-kuQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="663" y="215"/>
+            <point key="canvasLocation" x="583" y="183"/>
         </scene>
         <!--Info View Controller-->
         <scene sceneID="Y4N-d7-0Vf">
@@ -188,12 +233,78 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pKa-ri-Gin" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="656" y="871"/>
+            <point key="canvasLocation" x="583" y="871"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kaG-XR-4gQ">
+            <objects>
+                <viewController id="DXM-FT-OSZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lbw-sP-1Pf"/>
+                        <viewControllerLayoutGuide type="bottom" id="prQ-3m-P4F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ij7-YJ-uBn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instrucciones_jumper.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fUg-26-SvV">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URg-Vb-6Be">
+                                <rect key="frame" x="5" y="0.0" width="595" height="600"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8yo-lh-la9" kind="show" id="fJK-aQ-Vfg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="URg-Vb-6Be" firstAttribute="bottom" secondItem="prQ-3m-P4F" secondAttribute="top" id="0bH-QJ-ebr"/>
+                            <constraint firstItem="fUg-26-SvV" firstAttribute="top" secondItem="Ij7-YJ-uBn" secondAttribute="top" id="6Eb-aB-P1w"/>
+                            <constraint firstItem="fUg-26-SvV" firstAttribute="leading" secondItem="Ij7-YJ-uBn" secondAttribute="leading" id="BW3-m6-j7k"/>
+                            <constraint firstItem="URg-Vb-6Be" firstAttribute="top" secondItem="fUg-26-SvV" secondAttribute="top" id="Vo4-vl-nDX"/>
+                            <constraint firstItem="fUg-26-SvV" firstAttribute="bottom" secondItem="prQ-3m-P4F" secondAttribute="top" id="bn3-GJ-gqc"/>
+                            <constraint firstAttribute="trailing" secondItem="URg-Vb-6Be" secondAttribute="trailing" id="dQe-ma-fPz"/>
+                            <constraint firstItem="fUg-26-SvV" firstAttribute="trailing" secondItem="URg-Vb-6Be" secondAttribute="trailing" id="oxL-ys-0vM"/>
+                            <constraint firstItem="URg-Vb-6Be" firstAttribute="leading" secondItem="Ij7-YJ-uBn" secondAttribute="leadingMargin" constant="-11" id="u03-WA-Fay"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QLk-7j-HoM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1379" y="513"/>
+        </scene>
+        <!--Jumper Game View Controller-->
+        <scene sceneID="QSl-vb-bCZ">
+            <objects>
+                <viewController id="8yo-lh-la9" customClass="JumperGameViewController" customModule="Game_Time" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rzs-KZ-i1q"/>
+                        <viewControllerLayoutGuide type="bottom" id="5yq-pV-PuE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cUH-Mr-tyP" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cYc-v0-qMp"/>
+                    <connections>
+                        <segue destination="tyH-dg-zM4" kind="show" identifier="Menu" id="lk6-cS-qVM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AIf-cs-CWR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2170" y="437"/>
         </scene>
     </scenes>
     <resources>
         <image name="back_timmy.jpg" width="1080" height="1920"/>
         <image name="info_bt.jpg" width="1080" height="1920"/>
+        <image name="instrucciones_jumper.jpg" width="1080" height="1920"/>
+        <image name="instrucciones_timmy.jpg" width="1080" height="1920"/>
         <image name="intro_diggy-1.jpg" width="1280" height="275"/>
         <image name="intro_jumper-1.jpg" width="1280" height="275"/>
         <image name="intro_kody-1.jpg" width="1280" height="275"/>
@@ -202,6 +313,6 @@
         <image name="logo_bt.png" width="592" height="502"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="nGj-ce-vJk"/>
+        <segue reference="lk6-cS-qVM"/>
     </inferredMetricsTieBreakers>
 </document>

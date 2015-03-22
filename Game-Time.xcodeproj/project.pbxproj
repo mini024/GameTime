@@ -13,6 +13,16 @@
 		227D402D1ABE802D00353D70 /* intro_kody-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D402C1ABE802D00353D70 /* intro_kody-1.jpg */; };
 		227D402F1ABE803200353D70 /* intro_jumper-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D402E1ABE803200353D70 /* intro_jumper-1.jpg */; };
 		227D40311ABE803600353D70 /* intro_diggy-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D40301ABE803600353D70 /* intro_diggy-1.jpg */; };
+		227D40351ABF09FD00353D70 /* JumperGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 227D40321ABF09FD00353D70 /* JumperGameScene.sks */; };
+		227D40361ABF09FD00353D70 /* JumperGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D40331ABF09FD00353D70 /* JumperGameScene.swift */; };
+		227D40371ABF09FD00353D70 /* JumperGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D40341ABF09FD00353D70 /* JumperGameViewController.swift */; };
+		227D403B1ABF0F8200353D70 /* Pink_Lemonade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 227D40391ABF0F8200353D70 /* Pink_Lemonade.mp3 */; };
+		227D403D1ABF18B900353D70 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227D403C1ABF18B900353D70 /* AVFoundation.framework */; };
+		227D403F1ABF195700353D70 /* Marvin's_Dance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 227D403E1ABF195700353D70 /* Marvin's_Dance.mp3 */; };
+		227D40411ABF197500353D70 /* Saddest_Beach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 227D40401ABF197500353D70 /* Saddest_Beach.mp3 */; };
+		227D40451ABF198400353D70 /* instrucciones_jumper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D40421ABF198400353D70 /* instrucciones_jumper.jpg */; };
+		227D40461ABF198400353D70 /* instrucciones_kody.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D40431ABF198400353D70 /* instrucciones_kody.jpg */; };
+		227D40471ABF198400353D70 /* instrucciones_timmy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D40441ABF198400353D70 /* instrucciones_timmy.jpg */; };
 		22810A531ABE1125008D9D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22810A521ABE1125008D9D07 /* AppDelegate.swift */; };
 		22810A551ABE1125008D9D07 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22810A541ABE1125008D9D07 /* GameScene.sks */; };
 		22810A571ABE1125008D9D07 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22810A561ABE1125008D9D07 /* GameScene.swift */; };
@@ -45,6 +55,16 @@
 		227D402C1ABE802D00353D70 /* intro_kody-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_kody-1.jpg"; sourceTree = "<group>"; };
 		227D402E1ABE803200353D70 /* intro_jumper-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_jumper-1.jpg"; sourceTree = "<group>"; };
 		227D40301ABE803600353D70 /* intro_diggy-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_diggy-1.jpg"; sourceTree = "<group>"; };
+		227D40321ABF09FD00353D70 /* JumperGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = JumperGameScene.sks; sourceTree = "<group>"; };
+		227D40331ABF09FD00353D70 /* JumperGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumperGameScene.swift; sourceTree = "<group>"; };
+		227D40341ABF09FD00353D70 /* JumperGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumperGameViewController.swift; sourceTree = "<group>"; };
+		227D40391ABF0F8200353D70 /* Pink_Lemonade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pink_Lemonade.mp3; sourceTree = "<group>"; };
+		227D403C1ABF18B900353D70 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		227D403E1ABF195700353D70 /* Marvin's_Dance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Marvin's_Dance.mp3"; sourceTree = "<group>"; };
+		227D40401ABF197500353D70 /* Saddest_Beach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Saddest_Beach.mp3; sourceTree = "<group>"; };
+		227D40421ABF198400353D70 /* instrucciones_jumper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instrucciones_jumper.jpg; sourceTree = "<group>"; };
+		227D40431ABF198400353D70 /* instrucciones_kody.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instrucciones_kody.jpg; sourceTree = "<group>"; };
+		227D40441ABF198400353D70 /* instrucciones_timmy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instrucciones_timmy.jpg; sourceTree = "<group>"; };
 		22810A4D1ABE1125008D9D07 /* Game-Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game-Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22810A511ABE1125008D9D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22810A521ABE1125008D9D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227D403D1ABF18B900353D70 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +106,7 @@
 		22810A441ABE1125008D9D07 = {
 			isa = PBXGroup;
 			children = (
+				227D403C1ABF18B900353D70 /* AVFoundation.framework */,
 				22810A4F1ABE1125008D9D07 /* Game-Time */,
 				22810A691ABE1125008D9D07 /* Game-TimeTests */,
 				22810A4E1ABE1125008D9D07 /* Products */,
@@ -108,6 +130,9 @@
 				22810A541ABE1125008D9D07 /* GameScene.sks */,
 				22810A561ABE1125008D9D07 /* GameScene.swift */,
 				22810A581ABE1125008D9D07 /* GameViewController.swift */,
+				227D40321ABF09FD00353D70 /* JumperGameScene.sks */,
+				227D40331ABF09FD00353D70 /* JumperGameScene.swift */,
+				227D40341ABF09FD00353D70 /* JumperGameViewController.swift */,
 				22810A761ABE113B008D9D07 /* ViewController.swift */,
 				22810A771ABE113B008D9D07 /* InfoViewController.swift */,
 				22810A5A1ABE1125008D9D07 /* Main.storyboard */,
@@ -146,6 +171,8 @@
 		22810A7E1ABE11A4008D9D07 /* Changuito */ = {
 			isa = PBXGroup;
 			children = (
+				227D403E1ABF195700353D70 /* Marvin's_Dance.mp3 */,
+				227D40391ABF0F8200353D70 /* Pink_Lemonade.mp3 */,
 				227D40121ABE546C00353D70 /* open.001.jpg */,
 				22810A8E1ABE4842008D9D07 /* back_timmy.jpg */,
 				22810A8F1ABE4842008D9D07 /* info_bt.jpg */,
@@ -155,6 +182,10 @@
 				227D402C1ABE802D00353D70 /* intro_kody-1.jpg */,
 				227D402E1ABE803200353D70 /* intro_jumper-1.jpg */,
 				227D40301ABE803600353D70 /* intro_diggy-1.jpg */,
+				227D40401ABF197500353D70 /* Saddest_Beach.mp3 */,
+				227D40421ABF198400353D70 /* instrucciones_jumper.jpg */,
+				227D40431ABF198400353D70 /* instrucciones_kody.jpg */,
+				227D40441ABF198400353D70 /* instrucciones_timmy.jpg */,
 				22810A801ABE11A4008D9D07 /* Mono */,
 			);
 			path = Changuito;
@@ -247,14 +278,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227D40461ABF198400353D70 /* instrucciones_kody.jpg in Resources */,
 				227D40311ABE803600353D70 /* intro_diggy-1.jpg in Resources */,
+				227D403F1ABF195700353D70 /* Marvin's_Dance.mp3 in Resources */,
 				227D402D1ABE802D00353D70 /* intro_kody-1.jpg in Resources */,
+				227D40411ABF197500353D70 /* Saddest_Beach.mp3 in Resources */,
 				22810A611ABE1125008D9D07 /* LaunchScreen.xib in Resources */,
 				22810A911ABE4842008D9D07 /* back_timmy.jpg in Resources */,
+				227D40451ABF198400353D70 /* instrucciones_jumper.jpg in Resources */,
 				227D40291ABE800500353D70 /* intro_slashy-1.jpg in Resources */,
+				227D403B1ABF0F8200353D70 /* Pink_Lemonade.mp3 in Resources */,
 				22810A5E1ABE1125008D9D07 /* Images.xcassets in Resources */,
 				22810A551ABE1125008D9D07 /* GameScene.sks in Resources */,
+				227D40351ABF09FD00353D70 /* JumperGameScene.sks in Resources */,
 				227D40131ABE546C00353D70 /* open.001.jpg in Resources */,
+				227D40471ABF198400353D70 /* instrucciones_timmy.jpg in Resources */,
 				22810A931ABE4842008D9D07 /* logo_bt.png in Resources */,
 				227D402B1ABE802400353D70 /* intro_timmy-1.jpg in Resources */,
 				227D402F1ABE803200353D70 /* intro_jumper-1.jpg in Resources */,
@@ -282,6 +320,8 @@
 				22810A781ABE113B008D9D07 /* ViewController.swift in Sources */,
 				22810A531ABE1125008D9D07 /* AppDelegate.swift in Sources */,
 				22810A791ABE113B008D9D07 /* InfoViewController.swift in Sources */,
+				227D40371ABF09FD00353D70 /* JumperGameViewController.swift in Sources */,
+				227D40361ABF09FD00353D70 /* JumperGameScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +380,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -382,6 +423,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -404,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Game-Time/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Game-Time/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
