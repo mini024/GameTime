@@ -38,7 +38,7 @@ class JumperGameScene: SKScene, SKPhysicsContactDelegate
 
     override func didMoveToView(view: SKView) {
         
-        var bgImage = SKSpriteNode(imageNamed: "fondo_jumper")
+        var bgImage = SKSpriteNode(imageNamed: "fondo_jumper.jpg")
         bgImage.xScale = self.frame.size.width * 0.0004
         bgImage.yScale = self.frame.size.height * 0.00052
         bgImage.position = CGPointMake(self.size.width/2, self.size.height/2)

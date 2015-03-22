@@ -19,7 +19,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate  {
     var bananascachadas = 0
     var labelTime = SKLabelNode(fontNamed: "Helvetica")
     let KeyName = "music2"
-    var bkSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Marvin's_Dance", ofType: "mp3")!)
+    var bkSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Saddest_Beach", ofType: "mp3")!)
     var BkPlayer = AVAudioPlayer()
     
     func playMySound(){
@@ -172,11 +172,11 @@ override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         var spritetexture5 = SKTexture(imageNamed:"Mono5")
         var spritetexture4 = SKTexture(imageNamed:"Mono4")
         var spritetexture6 = SKTexture(imageNamed:"Mono6")
-        var wait = SKAction.waitForDuration(0.1)
-        var wait2 = SKAction.waitForDuration(0.2)
+        var wait = SKAction.waitForDuration(0.3)
+        var wait2 = SKAction.waitForDuration(0.3)
         
         if width < self.frame.size.width/2 {
-            var animationstart = SKAction.animateWithTextures([spritetexture5, spritetexture6, spritetexture5], timePerFrame: 0.1)
+            var animationstart = SKAction.animateWithTextures([spritetexture5, spritetexture6, spritetexture5], timePerFrame: 0.3)
             self.mono.runAction(animationstart)
             var run1 = SKAction.runBlock {
             self.canasta.removeFromParent()
@@ -198,7 +198,7 @@ override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
             self.runAction(SKAction.sequence([wait, run1, wait2, run]))
             
         } else {
-            var animationstart = SKAction.animateWithTextures([spritetexture5, spritetexture4, spritetexture5], timePerFrame: 0.1)
+            var animationstart = SKAction.animateWithTextures([spritetexture5, spritetexture4, spritetexture5], timePerFrame: 0.3)
             self.mono.runAction(animationstart)
             self.canasta.removeFromParent()
             var run3 = SKAction.runBlock {

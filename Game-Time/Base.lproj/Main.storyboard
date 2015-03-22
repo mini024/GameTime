@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tyH-dg-zM4">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -42,6 +44,7 @@
                             <constraint firstItem="0cn-Up-C3h" firstAttribute="leading" secondItem="rmL-79-rtI" secondAttribute="leadingMargin" constant="-11" id="zYO-PQ-oXl"/>
                         </constraints>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P86-SK-3Ov" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -60,6 +63,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
                         <segue destination="tyH-dg-zM4" kind="show" identifier="Menu" id="nGj-ce-vJk"/>
                     </connections>
@@ -132,24 +136,27 @@
                                 <state key="normal" image="intro_kody-1.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ZGR-pH-jzU" kind="show" id="4fX-FU-qu6"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QpX-4Q-uHT">
+                            <button contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QpX-4Q-uHT">
                                 <rect key="frame" x="172" y="482" width="256" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="gR1-Vd-vsG"/>
                                     <constraint firstAttribute="width" constant="256" id="zLh-i1-ZYb"/>
                                 </constraints>
-                                <state key="normal" image="intro_slashy-1.jpg">
+                                <state key="normal" image="black_slashy.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlo-6R-k0P">
+                            <button contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlo-6R-k0P">
                                 <rect key="frame" x="172" y="410" width="256" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="dO3-RO-9S8"/>
                                     <constraint firstAttribute="width" constant="256" id="r2Y-sf-45o"/>
                                 </constraints>
-                                <state key="normal" image="intro_diggy-1.jpg">
+                                <state key="normal" image="black_diggy.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
@@ -188,6 +195,7 @@
                             <constraint firstAttribute="centerX" secondItem="dwK-6M-D3D" secondAttribute="centerX" id="sk6-mm-vTL"/>
                         </constraints>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EFB-4M-kuQ" sceneMemberID="firstResponder"/>
             </objects>
@@ -230,6 +238,7 @@
                             <constraint firstItem="QSd-nr-gYP" firstAttribute="centerY" secondItem="qJG-3N-QQK" secondAttribute="centerY" id="von-ad-fuB"/>
                         </constraints>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pKa-ri-Gin" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -272,10 +281,71 @@
                             <constraint firstItem="URg-Vb-6Be" firstAttribute="leading" secondItem="Ij7-YJ-uBn" secondAttribute="leadingMargin" constant="-11" id="u03-WA-Fay"/>
                         </constraints>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QLk-7j-HoM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1379" y="513"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hnD-j3-32t">
+            <objects>
+                <viewController id="ZGR-pH-jzU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TIn-oS-M2d"/>
+                        <viewControllerLayoutGuide type="bottom" id="tro-UU-faU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VhY-l3-70u">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_kody.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vXa-sB-lm2">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AFV-Ni-ffy">
+                                <rect key="frame" x="3" y="0.0" width="595" height="600"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wgz-YJ-eal" kind="show" id="WuR-G9-cWP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbp-YU-hoq">
+                                <rect key="frame" x="0.0" y="0.0" width="595" height="600"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vXa-sB-lm2" firstAttribute="top" secondItem="AFV-Ni-ffy" secondAttribute="top" id="9ST-GL-sWO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qbp-YU-hoq" secondAttribute="trailing" constant="-11" id="K5j-Yf-TZx"/>
+                            <constraint firstItem="vXa-sB-lm2" firstAttribute="bottom" secondItem="tro-UU-faU" secondAttribute="top" id="KFq-lu-zAC"/>
+                            <constraint firstItem="qbp-YU-hoq" firstAttribute="bottom" secondItem="vXa-sB-lm2" secondAttribute="bottom" id="Sog-PT-sct"/>
+                            <constraint firstItem="vXa-sB-lm2" firstAttribute="centerX" secondItem="AFV-Ni-ffy" secondAttribute="centerX" id="TZA-Id-L2A"/>
+                            <constraint firstItem="qbp-YU-hoq" firstAttribute="top" secondItem="vXa-sB-lm2" secondAttribute="top" id="WVc-DC-Zm5"/>
+                            <constraint firstItem="AFV-Ni-ffy" firstAttribute="bottom" secondItem="tro-UU-faU" secondAttribute="top" id="Xgb-fU-1OD"/>
+                            <constraint firstItem="AFV-Ni-ffy" firstAttribute="leading" secondItem="VhY-l3-70u" secondAttribute="leadingMargin" constant="-13" id="YKQ-J7-riR"/>
+                            <constraint firstItem="AFV-Ni-ffy" firstAttribute="top" secondItem="VhY-l3-70u" secondAttribute="top" id="aI8-Ou-fEx"/>
+                            <constraint firstItem="vXa-sB-lm2" firstAttribute="leading" secondItem="VhY-l3-70u" secondAttribute="leading" id="ekG-9V-2Co"/>
+                            <constraint firstItem="qbp-YU-hoq" firstAttribute="bottom" secondItem="tro-UU-faU" secondAttribute="top" id="jck-uV-sbm"/>
+                            <constraint firstAttribute="trailing" secondItem="vXa-sB-lm2" secondAttribute="trailing" id="sTt-V3-0af"/>
+                            <constraint firstItem="qbp-YU-hoq" firstAttribute="leading" secondItem="VhY-l3-70u" secondAttribute="leading" id="wWx-au-hx1"/>
+                            <constraint firstItem="qbp-YU-hoq" firstAttribute="top" secondItem="VhY-l3-70u" secondAttribute="top" id="z5O-ym-Lj8"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="qbp-YU-hoq"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oQG-hy-XSe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1312" y="1211"/>
         </scene>
         <!--Jumper Game View Controller-->
         <scene sceneID="QSl-vb-bCZ">
@@ -291,6 +361,7 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="cYc-v0-qMp"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
                         <segue destination="tyH-dg-zM4" kind="show" identifier="Menu" id="lk6-cS-qVM"/>
                     </connections>
@@ -299,20 +370,44 @@
             </objects>
             <point key="canvasLocation" x="2170" y="437"/>
         </scene>
+        <!--Oso Game View Controller-->
+        <scene sceneID="Xif-dc-pLw">
+            <objects>
+                <viewController id="wgz-YJ-eal" customClass="OsoGameViewController" customModule="Game_Time" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mgh-cw-npN"/>
+                        <viewControllerLayoutGuide type="bottom" id="42a-mQ-pQe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DFE-eP-4oS" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AVb-2E-1iX"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="tyH-dg-zM4" kind="show" identifier="Menu" id="DB9-aD-1rl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M0S-Cd-cbc" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2088" y="1235"/>
+        </scene>
     </scenes>
     <resources>
         <image name="back_timmy.jpg" width="1080" height="1920"/>
+        <image name="black_diggy.jpg" width="1280" height="275"/>
+        <image name="black_slashy.jpg" width="1280" height="275"/>
         <image name="info_bt.jpg" width="1080" height="1920"/>
+        <image name="info_kody.jpg" width="1080" height="1920"/>
         <image name="instrucciones_jumper.jpg" width="1080" height="1920"/>
         <image name="instrucciones_timmy.jpg" width="1080" height="1920"/>
-        <image name="intro_diggy-1.jpg" width="1280" height="275"/>
         <image name="intro_jumper-1.jpg" width="1280" height="275"/>
         <image name="intro_kody-1.jpg" width="1280" height="275"/>
-        <image name="intro_slashy-1.jpg" width="1280" height="275"/>
         <image name="intro_timmy-1.jpg" width="1280" height="275"/>
         <image name="logo_bt.png" width="592" height="502"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lk6-cS-qVM"/>
+        <segue reference="DB9-aD-1rl"/>
     </inferredMetricsTieBreakers>
 </document>

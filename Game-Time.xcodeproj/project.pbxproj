@@ -11,8 +11,6 @@
 		227D40291ABE800500353D70 /* intro_slashy-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D40281ABE800500353D70 /* intro_slashy-1.jpg */; };
 		227D402B1ABE802400353D70 /* intro_timmy-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D402A1ABE802400353D70 /* intro_timmy-1.jpg */; };
 		227D402D1ABE802D00353D70 /* intro_kody-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D402C1ABE802D00353D70 /* intro_kody-1.jpg */; };
-		227D402F1ABE803200353D70 /* intro_jumper-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D402E1ABE803200353D70 /* intro_jumper-1.jpg */; };
-		227D40311ABE803600353D70 /* intro_diggy-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D40301ABE803600353D70 /* intro_diggy-1.jpg */; };
 		227D40351ABF09FD00353D70 /* JumperGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 227D40321ABF09FD00353D70 /* JumperGameScene.sks */; };
 		227D40361ABF09FD00353D70 /* JumperGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D40331ABF09FD00353D70 /* JumperGameScene.swift */; };
 		227D40371ABF09FD00353D70 /* JumperGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D40341ABF09FD00353D70 /* JumperGameViewController.swift */; };
@@ -23,6 +21,14 @@
 		227D40451ABF198400353D70 /* instrucciones_jumper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D40421ABF198400353D70 /* instrucciones_jumper.jpg */; };
 		227D40461ABF198400353D70 /* instrucciones_kody.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D40431ABF198400353D70 /* instrucciones_kody.jpg */; };
 		227D40471ABF198400353D70 /* instrucciones_timmy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D40441ABF198400353D70 /* instrucciones_timmy.jpg */; };
+		227D404B1ABF46CE00353D70 /* OsoGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 227D40481ABF46CE00353D70 /* OsoGameScene.sks */; };
+		227D404C1ABF46CE00353D70 /* OsoGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D40491ABF46CE00353D70 /* OsoGameScene.swift */; };
+		227D404D1ABF46CE00353D70 /* OsoGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D404A1ABF46CE00353D70 /* OsoGameViewController.swift */; };
+		227D404F1ABF4BCD00353D70 /* info_kody.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D404E1ABF4BCD00353D70 /* info_kody.jpg */; };
+		227D40511ABF4C1000353D70 /* Sun's_Rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 227D40501ABF4C1000353D70 /* Sun's_Rise.mp3 */; };
+		227D40541ABF511D00353D70 /* black_diggy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D40521ABF511D00353D70 /* black_diggy.jpg */; };
+		227D40551ABF511D00353D70 /* black_slashy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D40531ABF511D00353D70 /* black_slashy.jpg */; };
+		227D40571ABF515600353D70 /* intro_jumper-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 227D40561ABF515600353D70 /* intro_jumper-1.jpg */; };
 		22810A531ABE1125008D9D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22810A521ABE1125008D9D07 /* AppDelegate.swift */; };
 		22810A551ABE1125008D9D07 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22810A541ABE1125008D9D07 /* GameScene.sks */; };
 		22810A571ABE1125008D9D07 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22810A561ABE1125008D9D07 /* GameScene.swift */; };
@@ -53,8 +59,6 @@
 		227D40281ABE800500353D70 /* intro_slashy-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "intro_slashy-1.jpg"; path = "/var/folders/rq/zlg77vd91zd7886d54dp_15w0000gn/T/com.apple.iChat/Messages/Transfers/intro_slashy-1.jpg"; sourceTree = "<absolute>"; };
 		227D402A1ABE802400353D70 /* intro_timmy-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "intro_timmy-1.jpg"; path = "/var/folders/rq/zlg77vd91zd7886d54dp_15w0000gn/T/com.apple.iChat/Messages/Transfers/intro_timmy-1.jpg"; sourceTree = "<absolute>"; };
 		227D402C1ABE802D00353D70 /* intro_kody-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_kody-1.jpg"; sourceTree = "<group>"; };
-		227D402E1ABE803200353D70 /* intro_jumper-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_jumper-1.jpg"; sourceTree = "<group>"; };
-		227D40301ABE803600353D70 /* intro_diggy-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_diggy-1.jpg"; sourceTree = "<group>"; };
 		227D40321ABF09FD00353D70 /* JumperGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = JumperGameScene.sks; sourceTree = "<group>"; };
 		227D40331ABF09FD00353D70 /* JumperGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumperGameScene.swift; sourceTree = "<group>"; };
 		227D40341ABF09FD00353D70 /* JumperGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumperGameViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +69,14 @@
 		227D40421ABF198400353D70 /* instrucciones_jumper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instrucciones_jumper.jpg; sourceTree = "<group>"; };
 		227D40431ABF198400353D70 /* instrucciones_kody.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instrucciones_kody.jpg; sourceTree = "<group>"; };
 		227D40441ABF198400353D70 /* instrucciones_timmy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instrucciones_timmy.jpg; sourceTree = "<group>"; };
+		227D40481ABF46CE00353D70 /* OsoGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = OsoGameScene.sks; sourceTree = "<group>"; };
+		227D40491ABF46CE00353D70 /* OsoGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OsoGameScene.swift; sourceTree = "<group>"; };
+		227D404A1ABF46CE00353D70 /* OsoGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OsoGameViewController.swift; sourceTree = "<group>"; };
+		227D404E1ABF4BCD00353D70 /* info_kody.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = info_kody.jpg; sourceTree = "<group>"; };
+		227D40501ABF4C1000353D70 /* Sun's_Rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sun's_Rise.mp3"; sourceTree = "<group>"; };
+		227D40521ABF511D00353D70 /* black_diggy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black_diggy.jpg; sourceTree = "<group>"; };
+		227D40531ABF511D00353D70 /* black_slashy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black_slashy.jpg; sourceTree = "<group>"; };
+		227D40561ABF515600353D70 /* intro_jumper-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_jumper-1.jpg"; sourceTree = "<group>"; };
 		22810A4D1ABE1125008D9D07 /* Game-Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game-Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22810A511ABE1125008D9D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22810A521ABE1125008D9D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +145,9 @@
 				227D40321ABF09FD00353D70 /* JumperGameScene.sks */,
 				227D40331ABF09FD00353D70 /* JumperGameScene.swift */,
 				227D40341ABF09FD00353D70 /* JumperGameViewController.swift */,
+				227D40481ABF46CE00353D70 /* OsoGameScene.sks */,
+				227D40491ABF46CE00353D70 /* OsoGameScene.swift */,
+				227D404A1ABF46CE00353D70 /* OsoGameViewController.swift */,
 				22810A761ABE113B008D9D07 /* ViewController.swift */,
 				22810A771ABE113B008D9D07 /* InfoViewController.swift */,
 				22810A5A1ABE1125008D9D07 /* Main.storyboard */,
@@ -171,6 +186,11 @@
 		22810A7E1ABE11A4008D9D07 /* Changuito */ = {
 			isa = PBXGroup;
 			children = (
+				227D40561ABF515600353D70 /* intro_jumper-1.jpg */,
+				227D40521ABF511D00353D70 /* black_diggy.jpg */,
+				227D40531ABF511D00353D70 /* black_slashy.jpg */,
+				227D40501ABF4C1000353D70 /* Sun's_Rise.mp3 */,
+				227D404E1ABF4BCD00353D70 /* info_kody.jpg */,
 				227D403E1ABF195700353D70 /* Marvin's_Dance.mp3 */,
 				227D40391ABF0F8200353D70 /* Pink_Lemonade.mp3 */,
 				227D40121ABE546C00353D70 /* open.001.jpg */,
@@ -180,8 +200,6 @@
 				227D40281ABE800500353D70 /* intro_slashy-1.jpg */,
 				227D402A1ABE802400353D70 /* intro_timmy-1.jpg */,
 				227D402C1ABE802D00353D70 /* intro_kody-1.jpg */,
-				227D402E1ABE803200353D70 /* intro_jumper-1.jpg */,
-				227D40301ABE803600353D70 /* intro_diggy-1.jpg */,
 				227D40401ABF197500353D70 /* Saddest_Beach.mp3 */,
 				227D40421ABF198400353D70 /* instrucciones_jumper.jpg */,
 				227D40431ABF198400353D70 /* instrucciones_kody.jpg */,
@@ -247,6 +265,7 @@
 				TargetAttributes = {
 					22810A4C1ABE1125008D9D07 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 6RBBWM63CX;
 					};
 					22810A651ABE1125008D9D07 = {
 						CreatedOnToolsVersion = 6.2;
@@ -279,23 +298,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				227D40461ABF198400353D70 /* instrucciones_kody.jpg in Resources */,
-				227D40311ABE803600353D70 /* intro_diggy-1.jpg in Resources */,
+				227D40511ABF4C1000353D70 /* Sun's_Rise.mp3 in Resources */,
 				227D403F1ABF195700353D70 /* Marvin's_Dance.mp3 in Resources */,
 				227D402D1ABE802D00353D70 /* intro_kody-1.jpg in Resources */,
+				227D40541ABF511D00353D70 /* black_diggy.jpg in Resources */,
+				227D404B1ABF46CE00353D70 /* OsoGameScene.sks in Resources */,
 				227D40411ABF197500353D70 /* Saddest_Beach.mp3 in Resources */,
+				227D404F1ABF4BCD00353D70 /* info_kody.jpg in Resources */,
 				22810A611ABE1125008D9D07 /* LaunchScreen.xib in Resources */,
 				22810A911ABE4842008D9D07 /* back_timmy.jpg in Resources */,
 				227D40451ABF198400353D70 /* instrucciones_jumper.jpg in Resources */,
 				227D40291ABE800500353D70 /* intro_slashy-1.jpg in Resources */,
 				227D403B1ABF0F8200353D70 /* Pink_Lemonade.mp3 in Resources */,
 				22810A5E1ABE1125008D9D07 /* Images.xcassets in Resources */,
+				227D40551ABF511D00353D70 /* black_slashy.jpg in Resources */,
 				22810A551ABE1125008D9D07 /* GameScene.sks in Resources */,
 				227D40351ABF09FD00353D70 /* JumperGameScene.sks in Resources */,
 				227D40131ABE546C00353D70 /* open.001.jpg in Resources */,
 				227D40471ABF198400353D70 /* instrucciones_timmy.jpg in Resources */,
 				22810A931ABE4842008D9D07 /* logo_bt.png in Resources */,
 				227D402B1ABE802400353D70 /* intro_timmy-1.jpg in Resources */,
-				227D402F1ABE803200353D70 /* intro_jumper-1.jpg in Resources */,
+				227D40571ABF515600353D70 /* intro_jumper-1.jpg in Resources */,
 				22810A5C1ABE1125008D9D07 /* Main.storyboard in Resources */,
 				22810A921ABE4842008D9D07 /* info_bt.jpg in Resources */,
 			);
@@ -316,11 +339,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				22810A571ABE1125008D9D07 /* GameScene.swift in Sources */,
+				227D404D1ABF46CE00353D70 /* OsoGameViewController.swift in Sources */,
 				22810A591ABE1125008D9D07 /* GameViewController.swift in Sources */,
 				22810A781ABE113B008D9D07 /* ViewController.swift in Sources */,
 				22810A531ABE1125008D9D07 /* AppDelegate.swift in Sources */,
 				22810A791ABE113B008D9D07 /* InfoViewController.swift in Sources */,
 				227D40371ABF09FD00353D70 /* JumperGameViewController.swift in Sources */,
+				227D404C1ABF46CE00353D70 /* OsoGameScene.swift in Sources */,
 				227D40361ABF09FD00353D70 /* JumperGameScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -435,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -448,6 +473,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Game-Time/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -459,6 +485,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Game-Time/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
